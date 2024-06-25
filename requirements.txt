@@ -1,0 +1,15 @@
+numpy==1.26.4
+pandas==2.2.0
+scikit-learn==1.4.1.post1
+scipy==1.7.3
+streamlit==1.35.0
+matplotlib==3.6.2
+seaborn==0.11.2
+requests==2.26.0
+pylint==2.12.2
+black==22.4.0
+
+
+
+
+
