@@ -1,19 +1,19 @@
 # 💳 Credit Card Fraud Detection Using Machine Learning
 
-## Overview
+## 🔍 Overview
 This project aims to build a machine-learning model to detect fraudulent credit card transactions using Python. The dataset contains transactions made by credit cards in September 2013 by European cardholders. The dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. 
 
-## Objective
+## 📝 Objective
 The primary goal is to identify fraudulent credit card transactions based on a set of features like transaction amount, type of transaction, and time of transaction. The model is expected to achieve high accuracy in detecting these fraudulent activities to minimize financial losses for credit card companies and customers.
 
-## Dataset
+## 📄 Dataset
 The dataset used for this project contains anonymized credit card transactions labeled as fraudulent or genuine. It includes the following features:
 - Time: Time elapsed between each transaction and the first transaction in seconds.
 - V1-V28: Principal components obtained with PCA (features are anonymized due to confidentiality reasons).
 - Amount: Transaction amount.
 - Class: 1 for fraudulent transactions, 0 otherwise.
 
-## Methodology
+## 📋 Methodology
 i. **Data Preprocessing:** 
    - Exploratory Data Analysis (EDA) to understand the distribution of features.
    - Handling missing values and outliers.
@@ -31,14 +31,14 @@ iv. **Deployment:**
    - Creating a Python script for real-time prediction of fraudulent transactions.
    - Utilizing Streamlit for creating a basic web application (optional).
 
-## Requirements
+## ✅ Requirements
 - Python 3.x
 - Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, etc.
 
-## The Web Interface
+## 🌐 The Web Interface
 ![WhatsApp Image 2024-06-25 at 19 48 06_906e62ca](https://github.com/jicsjitu/Credit_Card_Fraud_Detection/assets/162569175/a84a0dcc-3f13-429e-9320-4c3d2e222e6a)
 
-## Testing Model
+## 🧪 Testing Model
 
 i. **For Legitimate Transaction**
 
@@ -48,7 +48,7 @@ ii. **For Fraudulent Transaction**
 
 ![WhatsApp Image 2024-06-25 at 19 55 48_a26acf31](https://github.com/jicsjitu/Credit_Card_Fraud_Detection/assets/162569175/bf5de623-80b9-4bab-8322-305384be583f)
 
-## Usage
+## 🖥️ Usage
 1. Clone the repository:
    ```
    git clone https://github.com/jicsjitu/credit_card_fraud_detection.git
@@ -59,7 +59,7 @@ ii. **For Fraudulent Transaction**
    ```
 3. Run the Jupyter notebooks to train models and evaluate results.
 
-## Files in the Repository
+## 📁 Files in the Repository
 
 i. **README.md**: This file provides an overview of the project, setup instructions, usage guidelines, and other relevant information about the credit card fraud detection project using Python and machine learning.
 
@@ -75,13 +75,12 @@ vi. **credit_card_fraud_detection.ipynb**: Jupyter notebook containing the compl
 
 vii. **requirements.txt**: List of libraries required to run the code.
 
-## Credits
+## 👤 Credits
 - Dataset: [[Credit Card](https://drive.google.com/file/d/1u_9Zr5cEZYSCn-YhG4Ymrct6oHcNKTNC/view?usp=sharing)]
 
-## Feedback and Questions
+## 💬 Feedback and Questions
 If you have any feedback or questions about the project, please feel free to ask. I am here to help and appreciate your input. You can reach out by opening an issue on GitHub or by emailing me at jitukumar9387@gmail.com
 
 Thank you for checking out the Credit Card Fraud Detection Project! We hope you find it useful and informative.
 
 Happy analyzing!
-
